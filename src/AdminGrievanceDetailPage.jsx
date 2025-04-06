@@ -4,7 +4,7 @@ import { db } from "./firebaseConfig";
 import { doc, getDoc, updateDoc, serverTimestamp } from "firebase/firestore";
 import GrievanceReplyComponent from "./GrievanceReplayComponent";
 import "./AdminDashboard.css";
-import "./AdminGrievanceDetailpage.css"
+import "./AdminGrievanceDetailPage.css"
 
 const AdminGrievanceDetailPage = () => {
   const { id } = useParams();
